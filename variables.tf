@@ -1,7 +1,7 @@
 variable "create_bucket" {
   description = "Controls if S3 bucket should be created"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "attach_elb_log_delivery_policy" {
